@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<title>NZ South Island — 旅行英語 8場面 台本</title>
+<style>
+  @page { size: A4; margin: 14mm 14mm 16mm; }
+  :root { --ink:#1f2a33; --muted:#5b6b78; --line:#d9e1e7; --accent:#1f5f7a; --accent-bg:#e8f1f5; --you:#fff7e6; --listen:#2b7a4b; --speak:#1f5f7a; --talk:#7a4b2b; --num:#5a3d7a; --memo:#555; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; color: var(--ink); font-size: 10.5pt; line-height: 1.55; margin: 0; }
+  .cover { height: 250mm; display:flex; flex-direction:column; justify-content:center; break-after: page; }
+  .cover h1 { font-size: 30pt; margin: 0 0 6mm; line-height: 1.25; }
+  .cover .lead { font-size: 12pt; color: var(--accent); margin-bottom: 10mm; }
+  .cover .box { background: var(--accent-bg); padding: 6mm 7mm; border-radius: 3mm; margin-bottom: 6mm; }
+  .cover ol { margin: 0; padding-left: 1.4em; columns: 2; column-gap: 10mm; }
+  .cover li { margin-bottom: 1.5mm; break-inside: avoid; }
+  .cover .how { font-size: 9.5pt; color: var(--muted); }
+  .cover .how b { color: var(--ink); }
+  .repair { border: 1px solid var(--line); border-radius: 3mm; padding: 4mm 6mm; }
+  .repair h2 { margin: 0 0 2mm; font-size: 11pt; }
+  .repair li { margin: 0.5mm 0; }
+  .scene { break-before: page; }
+  .scene-head { border-bottom: 2px solid var(--accent); padding-bottom: 2mm; margin-bottom: 3mm; }
+  .scene-head .num { font-size: 9pt; letter-spacing: .15em; color: var(--accent); font-weight: 700; }
+  .scene-head h1 { font-size: 19pt; margin: 0.5mm 0 0; }
+  .scene-head .sub { color: var(--muted); font-size: 10pt; }
+  .scene-head .day { margin-left: 3mm; background: var(--accent-bg); color: var(--accent); padding: 0.3mm 2mm; border-radius: 1mm; font-size: 9pt; }
+  .situation { background: var(--accent-bg); padding: 2.5mm 4mm; border-radius: 2mm; margin: 0 0 3mm; font-size: 10pt; }
+  h2 { font-size: 11.5pt; margin: 4mm 0 1.5mm; display:flex; align-items:center; gap: 2mm; }
+  .tag { font-size: 8pt; color:#fff; padding: 0.3mm 2mm; border-radius: 1mm; letter-spacing:.05em; }
+  .tag.listen{background:var(--listen)} .tag.speak{background:var(--speak)} .tag.talk{background:var(--talk)} .tag.num{background:var(--num)} .tag.memo{background:var(--memo)}
+  ul.pairs { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 6mm; }
+  ul.pairs li { break-inside: avoid; margin-bottom: 1.6mm; padding-left: 2.5mm; border-left: 2px solid var(--line); }
+  ul.pairs .en { font-weight: 600; font-size: 10.5pt; }
+  ul.pairs .ja { color: var(--muted); font-size: 9pt; }
+  table.dialogue { width: 100%; border-collapse: collapse; font-size: 9.6pt; }
+  table.dialogue td { padding: 1.3mm 2mm; border-bottom: 1px solid var(--line); vertical-align: top; }
+  table.dialogue tr { break-inside: avoid; }
+  table.dialogue .who { width: 18mm; color: var(--muted); font-size: 8.5pt; white-space: nowrap; }
+  table.dialogue .en { width: 52%; }
+  table.dialogue .ja { color: var(--muted); font-size: 9pt; }
+  table.dialogue tr.you { background: var(--you); }
+  table.dialogue tr.you .who { color: #9a6b00; font-weight: 700; }
+  .two-col { display: grid; grid-template-columns: 1fr 1.4fr; gap: 6mm; break-inside: avoid; }
+  ul.numbers { margin: 0; padding-left: 1.3em; font-size: 10pt; }
+  ul.numbers li { margin-bottom: 0.6mm; font-weight: 600; }
+  .tips { margin: 0; font-size: 9.5pt; color: var(--ink); }
+  .foot { position: fixed; bottom: 0; font-size: 8pt; color: var(--muted); }
+</style></head><body>
+
+<section class="cover">
+  <div class="lead">NEW ZEALAND SOUTH ISLAND · 8 NIGHTS · ROAD TRIP</div>
+  <h1>旅行英語 8場面<br>ロールプレイ台本</h1>
+  <div class="box">
+    <ol>
+      <li><b>空港到着・レンタカー会社を探す</b><br><span style="color:var(--muted);font-size:9pt">Day 1 — Christchurch Airport</span></li><li><b>レンタカー受取(保険・傷・左側通行)</b><br><span style="color:var(--muted);font-size:9pt">Day 1 — Christchurch</span></li><li><b>宿チェックイン・設備や予約の問題を伝える</b><br><span style="color:var(--muted);font-size:9pt">Day 1〜8 — 毎日</span></li><li><b>カフェ・レストランで注文、アレルギーや希望を伝える</b><br><span style="color:var(--muted);font-size:9pt">Day 1〜9 — 毎日</span></li><li><b>ガソリン給油・支払い</b><br><span style="color:var(--muted);font-size:9pt">Day 2, 5, 7 — Tekapo / Wanaka / Te Anau</span></li><li><b>道路・駐車・通行止め・一車線橋について尋ねる</b><br><span style="color:var(--muted);font-size:9pt">Day 3, 7-8 — Pukaki / Milford Road</span></li><li><b>観光予約・天候による変更・キャンセル</b><br><span style="color:var(--muted);font-size:9pt">Day 4 Hooker Valley / Day 8 Milford Sound cruise</span></li><li><b>パンク・故障・事故・体調不良時の助けの求め方</b><br><span style="color:var(--muted);font-size:9pt">いつでも</span></li>
+    </ol>
+  </div>
+  <p class="how"><b>使い方:</b> 1場面を3〜5日かけて回す。①「聞こえてくる言葉」を音声で聞く(アプリの再生ボタン) → ②「自分が言うフレーズ」を音読 → ③ 会話の日本語だけを見て英語を口に出す → ④ オンライン英会話で同じ場面をロールプレイ → ⑤ 言えた1つ / 詰まった1つを記録。<br>
+  <b>優先順位:</b> 流暢さより「数字・時刻・金額・名前のスペル」と「聞き返し」。聞き取れなかったら下の6文のどれかを言えば会話は止まらない。</p>
+  <div class="repair">
+    <h2>聞き返しフレーズ(全場面共通・最初に覚える)</h2>
+    <ul class="pairs">
+      <li><div class="en">Sorry, could you say that again?</div><div class="ja">すみません、もう一度言ってもらえますか?</div></li><li><div class="en">Could you speak more slowly, please?</div><div class="ja">もう少しゆっくり話してもらえますか?</div></li><li><div class="en">Could you write that down for me?</div><div class="ja">書いてもらえますか?</div></li><li><div class="en">Sorry, do you mean ... ?</div><div class="ja">それは…ということですか?(自分の言葉で言い直す)</div></li><li><div class="en">Just a moment, let me check with my partner.</div><div class="ja">ちょっと待ってください、相手と確認します。</div></li><li><div class="en">My English isn't great, but I'll try.</div><div class="ja">英語は得意じゃないですが、がんばります。</div></li>
+    </ul>
+  </div>
+</section>
+
+<section class="scene">
+  <header class="scene-head">
+    <div class="num">SCENE 1</div>
+    <h1>空港到着・レンタカー会社を探す</h1>
+    <div class="sub">Airport arrival &amp; finding the rental car desk <span class="day">Day 1 — Christchurch Airport</span></div>
+  </header>
+  <p class="situation">長距離フライトのあと、Christchurch 空港に到着。入国審査と税関(NZ は食品・靴の泥に厳しい)を通り、レンタカーのカウンターかシャトル乗り場を探す。</p>
+
+  <h2><span class="tag listen">聞く</span>聞こえてくる言葉</h2>
+  <ul class="pairs">
+    <li><div class="en">What's the purpose of your visit?</div><div class="ja">滞在の目的は?(→ Sightseeing. / Holiday.)</div></li><li><div class="en">How long are you staying?</div><div class="ja">滞在期間は?(→ Nine days.)</div></li><li><div class="en">Are you bringing any food, plants, or hiking boots?</div><div class="ja">食品・植物・登山靴は持っていますか?(税関。正直に Yes/No)</div></li><li><div class="en">Have you been on a farm recently?</div><div class="ja">最近農場に行きましたか?</div></li><li><div class="en">Rental cars are on the ground floor, through those doors.</div><div class="ja">レンタカーは1階、あのドアの先です。</div></li><li><div class="en">The shuttle leaves every ten minutes from bay four.</div><div class="ja">シャトルは4番乗り場から10分おきです。</div></li>
+  </ul>
+
+  <h2><span class="tag speak">話す</span>自分が言うフレーズ</h2>
+  <ul class="pairs">
+    <li><div class="en">We're here on holiday for nine days.</div><div class="ja">9日間の休暇で来ました。</div></li><li><div class="en">Excuse me, where is the rental car pick-up?</div><div class="ja">すみません、レンタカーの受取はどこですか?</div></li><li><div class="en">We have a booking with Apex. Is their desk in the terminal?</div><div class="ja">Apex で予約しています。カウンターはターミナル内ですか?</div></li><li><div class="en">Where does the shuttle leave from?</div><div class="ja">シャトルはどこから出ますか?</div></li><li><div class="en">Is there an ATM or a SIM card shop nearby?</div><div class="ja">近くに ATM か SIM の店はありますか?</div></li><li><div class="en">Yes, I have hiking boots. They're clean.</div><div class="ja">はい、登山靴があります。きれいにしてあります。</div></li><li><div class="en">Which way to the exit?</div><div class="ja">出口はどちらですか?</div></li>
+  </ul>
+
+  <h2><span class="tag talk">会話</span>ロールプレイ台本</h2>
+  <table class="dialogue">
+    <tr class="them"><td class="who">Officer</td><td class="en">Good morning. What's the purpose of your visit?</td><td class="ja">おはようございます。滞在の目的は?</td></tr><tr class="you"><td class="who">You</td><td class="en">Sightseeing. We're here for nine days.</td><td class="ja">観光です。9日間滞在します。</td></tr><tr class="them"><td class="who">Officer</td><td class="en">Are you bringing any food or hiking boots?</td><td class="ja">食品や登山靴はありますか?</td></tr><tr class="you"><td class="who">You</td><td class="en">Yes, hiking boots. They're clean. No food.</td><td class="ja">はい、登山靴があります。きれいです。食品はありません。</td></tr><tr class="them"><td class="who">Officer</td><td class="en">Okay, go through lane two, please.</td><td class="ja">では2番レーンへどうぞ。</td></tr><tr class="you"><td class="who">You</td><td class="en">Sorry, which lane?</td><td class="ja">すみません、何番レーンですか?</td></tr><tr class="them"><td class="who">Officer</td><td class="en">Lane two. On your left.</td><td class="ja">2番です。左側。</td></tr><tr class="you"><td class="who">You</td><td class="en">Thank you.</td><td class="ja">ありがとうございます。</td></tr><tr class="you"><td class="who">You</td><td class="en">Excuse me, where is the rental car pick-up? We have a booking with Apex.</td><td class="ja">すみません、レンタカー受取はどこですか? Apex で予約しています。</td></tr><tr class="them"><td class="who">Staff</td><td class="en">Apex is off-site. Their shuttle leaves from bay four, every ten minutes.</td><td class="ja">Apex は空港外です。シャトルは4番乗り場から10分おきです。</td></tr><tr class="you"><td class="who">You</td><td class="en">Bay four. Is that outside this door?</td><td class="ja">4番乗り場。このドアの外ですか?</td></tr><tr class="them"><td class="who">Staff</td><td class="en">Yes, straight out and to the right.</td><td class="ja">はい、まっすぐ出て右です。</td></tr>
+  </table>
+
+  <div class="two-col">
+    <div>
+      <h2><span class="tag num">数字</span>数字・固有名詞ドリル</h2>
+      <ul class="numbers"><li>nine days</li><li>lane two</li><li>bay four</li><li>every ten minutes</li><li>ground floor</li><li>gate 23</li></ul>
+    </div>
+    <div>
+      <h2><span class="tag memo">メモ</span>知っておくこと</h2>
+      <p class="tips">NZ の入国カードと税関は「申告漏れ」に罰金が出る。靴に泥がついていると洗われる(問題ない)。聞き取れなければ Sorry? と言えば言い直してくれる。</p>
+    </div>
+  </div>
+</section>
+
+<section class="scene">
+  <header class="scene-head">
+    <div class="num">SCENE 2</div>
+    <h1>レンタカー受取(保険・傷・左側通行)</h1>
+    <div class="sub">Picking up the rental car <span class="day">Day 1 — Christchurch</span></div>
+  </header>
+  <p class="situation">レンタカーのカウンターで免許証とクレジットカードを出し、保険の免責(excess)を説明され、車の傷を一緒に確認する。NZ は左側通行で日本と同じ。返却時の燃料ルールも確認する。</p>
+
+  <h2><span class="tag listen">聞く</span>聞こえてくる言葉</h2>
+  <ul class="pairs">
+    <li><div class="en">Can I see your licence and a credit card, please?</div><div class="ja">免許証とクレジットカードを見せてください。(国際免許 + 日本の免許の両方)</div></li><li><div class="en">Would you like to reduce the excess?</div><div class="ja">免責額を下げますか?(追加保険の勧め)</div></li><li><div class="en">The excess is three thousand dollars. With the reduction, it's zero.</div><div class="ja">免責は3,000ドルです。追加保険で0になります。</div></li><li><div class="en">We'll put a hold of five hundred dollars on your card.</div><div class="ja">カードに500ドルの仮押さえをします。</div></li><li><div class="en">Please check the car and note any damage on this sheet.</div><div class="ja">車を確認して、傷をこの用紙に記入してください。</div></li><li><div class="en">Return it with a full tank. It takes ninety-one unleaded.</div><div class="ja">満タンで返却。燃料は91(レギュラー)です。</div></li><li><div class="en">Remember to keep left, and watch out for one-lane bridges.</div><div class="ja">左側通行を忘れずに。一車線橋に注意。</div></li>
+  </ul>
+
+  <h2><span class="tag speak">話す</span>自分が言うフレーズ</h2>
+  <ul class="pairs">
+    <li><div class="en">Here's my licence, my international permit, and my card.</div><div class="ja">免許証、国際免許、カードです。</div></li><li><div class="en">What is the excess? How much would it cost to reduce it?</div><div class="ja">免責はいくらですか? 下げるといくらかかりますか?</div></li><li><div class="en">Yes, we'd like the full cover, please.</div><div class="ja">はい、フルカバーでお願いします。</div></li><li><div class="en">Does it cover windscreen and tyres?</div><div class="ja">フロントガラスとタイヤも対象ですか?</div></li><li><div class="en">Can I take photos of the scratches before we leave?</div><div class="ja">出発前に傷の写真を撮ってもいいですか?</div></li><li><div class="en">There's a scratch here. Could you write it down?</div><div class="ja">ここに傷があります。記録してもらえますか?</div></li><li><div class="en">Is it petrol or diesel? Which grade?</div><div class="ja">ガソリンですか、ディーゼルですか? 何番ですか?</div></li><li><div class="en">What's the number to call if we break down?</div><div class="ja">故障したときの電話番号は?</div></li><li><div class="en">What time do we need to return it on the last day?</div><div class="ja">最終日は何時までに返却ですか?</div></li>
+  </ul>
+
+  <h2><span class="tag talk">会話</span>ロールプレイ台本</h2>
+  <table class="dialogue">
+    <tr class="them"><td class="who">Staff</td><td class="en">Hi there. Have you got a booking?</td><td class="ja">こんにちは。予約はありますか?</td></tr><tr class="you"><td class="who">You</td><td class="en">Yes, under Moriwaki. Here's my licence, my international permit, and my card.</td><td class="ja">はい、森脇で。免許証、国際免許、カードです。</td></tr><tr class="them"><td class="who">Staff</td><td class="en">Great. Now, the standard excess is three thousand dollars. Would you like to reduce it?</td><td class="ja">ありがとうございます。標準の免責は3,000ドルです。下げますか?</td></tr><tr class="you"><td class="who">You</td><td class="en">Sorry, how much is it to reduce it to zero?</td><td class="ja">すみません、0にするにはいくらですか?</td></tr><tr class="them"><td class="who">Staff</td><td class="en">Twenty-eight dollars a day. That covers windscreen and tyres too.</td><td class="ja">1日28ドルです。フロントガラスとタイヤも含みます。</td></tr><tr class="you"><td class="who">You</td><td class="en">Okay, we'll take the full cover, please.</td><td class="ja">では、フルカバーでお願いします。</td></tr><tr class="them"><td class="who">Staff</td><td class="en">We'll put a five-hundred-dollar hold on your card. It's released when you return the car.</td><td class="ja">カードに500ドルの仮押さえをします。返却時に解除されます。</td></tr><tr class="you"><td class="who">You</td><td class="en">Five hundred. Okay. Is the car petrol or diesel?</td><td class="ja">500ですね。はい。車はガソリンですか、ディーゼルですか?</td></tr><tr class="them"><td class="who">Staff</td><td class="en">Petrol, ninety-one. Please return it full. Here's the damage sheet — have a look around the car.</td><td class="ja">ガソリンの91です。満タン返却で。こちらが傷の用紙です。車を一周確認してください。</td></tr><tr class="you"><td class="who">You</td><td class="en">There's a scratch on the back bumper. Could you write it down? I'll take a photo too.</td><td class="ja">後ろのバンパーに傷があります。記録してください。写真も撮ります。</td></tr><tr class="them"><td class="who">Staff</td><td class="en">No problem. Keep left, and have a great trip!</td><td class="ja">もちろん。左側通行で、良い旅を!</td></tr>
+  </table>
+
+  <div class="two-col">
+    <div>
+      <h2><span class="tag num">数字</span>数字・固有名詞ドリル</h2>
+      <ul class="numbers"><li>three thousand dollars</li><li>twenty-eight dollars a day</li><li>a five-hundred-dollar hold</li><li>ninety-one unleaded</li><li>return by ten a.m.</li><li>0800 number</li></ul>
+    </div>
+    <div>
+      <h2><span class="tag memo">メモ</span>知っておくこと</h2>
+      <p class="tips">excess = 免責額(事故のとき自己負担する上限)。hold = カードの仮押さえ。日本の任意保険の感覚で「フルカバー」を選ぶのが無難。傷の写真は全周+ホイール+フロントガラスを撮る。</p>
+    </div>
+  </div>
+</section>
+
+<section class="scene">
+  <header class="scene-head">
+    <div class="num">SCENE 3</div>
+    <h1>宿チェックイン・設備や予約の問題を伝える</h1>
+    <div class="sub">Checking in &amp; reporting a problem <span class="day">Day 1〜8 — 毎日</span></div>
+  </header>
+  <p class="situation">モーテルやホテルのフロントで予約を伝える。朝食・Wi‑Fi・チェックアウト時刻を確認する。部屋のヒーターが動かない、タオルが足りない、などを伝える。NZ の宿は夜遅いと無人になり、暗証番号のキーボックスのこともある。</p>
+
+  <h2><span class="tag listen">聞く</span>聞こえてくる言葉</h2>
+  <ul class="pairs">
+    <li><div class="en">Have you got a booking with us?</div><div class="ja">予約はありますか?</div></li><li><div class="en">Can I take your name, please?</div><div class="ja">お名前をいただけますか?</div></li><li><div class="en">Could you spell that for me?</div><div class="ja">スペルをお願いします。(M-O-R-I-W-A-K-I)</div></li><li><div class="en">You're in room twelve, up the stairs on the left.</div><div class="ja">12号室です。階段を上がって左。</div></li><li><div class="en">Checkout is at ten. Breakfast is from seven to nine.</div><div class="ja">チェックアウトは10時。朝食は7〜9時。</div></li><li><div class="en">The Wi‑Fi password is on the card in your room.</div><div class="ja">Wi‑Fi のパスワードは部屋のカードにあります。</div></li><li><div class="en">I'll send someone up to have a look.</div><div class="ja">誰か見に行かせます。</div></li>
+  </ul>
+
+  <h2><span class="tag speak">話す</span>自分が言うフレーズ</h2>
+  <ul class="pairs">
+    <li><div class="en">Hi, we have a reservation for two nights under Moriwaki.</div><div class="ja">こんにちは、森脇で2泊予約しています。</div></li><li><div class="en">M-O-R-I-W-A-K-I.</div><div class="ja">(スペル。ゆっくり、R と L をはっきり)</div></li><li><div class="en">Is breakfast included? What time?</div><div class="ja">朝食は含まれていますか? 何時ですか?</div></li><li><div class="en">What time is checkout?</div><div class="ja">チェックアウトは何時ですか?</div></li><li><div class="en">What's the Wi‑Fi password?</div><div class="ja">Wi‑Fi のパスワードは?</div></li><li><div class="en">Is there parking? Is it free?</div><div class="ja">駐車場はありますか? 無料ですか?</div></li><li><div class="en">Sorry, the heater in our room isn't working.</div><div class="ja">すみません、部屋のヒーターが動きません。</div></li><li><div class="en">Could we have two more towels, please?</div><div class="ja">タオルをもう2枚もらえますか?</div></li><li><div class="en">The room is very cold. Is there an extra blanket?</div><div class="ja">部屋がとても寒いです。予備の毛布はありますか?</div></li><li><div class="en">Is there somewhere we can get dinner nearby?</div><div class="ja">近くで夕食を食べられる所はありますか?</div></li>
+  </ul>
+
+  <h2><span class="tag talk">会話</span>ロールプレイ台本</h2>
+  <table class="dialogue">
+    <tr class="them"><td class="who">Host</td><td class="en">Hi, welcome. Have you got a booking with us?</td><td class="ja">こんにちは、ようこそ。予約はありますか?</td></tr><tr class="you"><td class="who">You</td><td class="en">Yes, two nights under Moriwaki. M-O-R-I-W-A-K-I.</td><td class="ja">はい、森脇で2泊です。</td></tr><tr class="them"><td class="who">Host</td><td class="en">Got it. You're in unit six, just across the car park. Checkout's at ten.</td><td class="ja">確認しました。6号室で、駐車場の向かいです。チェックアウトは10時です。</td></tr><tr class="you"><td class="who">You</td><td class="en">Unit six. Is breakfast included?</td><td class="ja">6号室ですね。朝食は含まれていますか?</td></tr><tr class="them"><td class="who">Host</td><td class="en">No, sorry, but there's a café two minutes down the road.</td><td class="ja">いえ、含まれていませんが、2分先にカフェがあります。</td></tr><tr class="you"><td class="who">You</td><td class="en">Okay. And the Wi‑Fi password?</td><td class="ja">わかりました。Wi‑Fi のパスワードは?</td></tr><tr class="them"><td class="who">Host</td><td class="en">It's on the card by the kettle.</td><td class="ja">ケトルの横のカードに書いてあります。</td></tr><tr class="you"><td class="who">You</td><td class="en">(later) Sorry to bother you. The heater in unit six isn't working.</td><td class="ja">(あとで)すみません。6号室のヒーターが動きません。</td></tr><tr class="them"><td class="who">Host</td><td class="en">Oh, sorry about that. Did you try the switch on the wall?</td><td class="ja">申し訳ありません。壁のスイッチは試しましたか?</td></tr><tr class="you"><td class="who">You</td><td class="en">Yes, I did. Nothing happens.</td><td class="ja">はい、試しました。何も起きません。</td></tr><tr class="them"><td class="who">Host</td><td class="en">I'll come and have a look in five minutes.</td><td class="ja">5分後に見に行きます。</td></tr><tr class="you"><td class="who">You</td><td class="en">Thank you very much.</td><td class="ja">ありがとうございます。</td></tr>
+  </table>
+
+  <div class="two-col">
+    <div>
+      <h2><span class="tag num">数字</span>数字・固有名詞ドリル</h2>
+      <ul class="numbers"><li>two nights</li><li>unit six / room twelve</li><li>checkout at ten</li><li>breakfast from seven to nine</li><li>two minutes down the road</li><li>key box code 4 7 2 1</li></ul>
+    </div>
+    <div>
+      <h2><span class="tag memo">メモ</span>知っておくこと</h2>
+      <p class="tips">NZ では motel の部屋を unit と呼ぶことが多い。「名前のスペル」は毎回聞かれるので、自分と相手の名前を暗記レベルで。問題を伝えるときは 場所 + 何が + 動かない の3語で十分。</p>
+    </div>
+  </div>
+</section>
+
+<section class="scene">
+  <header class="scene-head">
+    <div class="num">SCENE 4</div>
+    <h1>カフェ・レストランで注文、アレルギーや希望を伝える</h1>
+    <div class="sub">Ordering at a café or restaurant <span class="day">Day 1〜9 — 毎日</span></div>
+  </header>
+  <p class="situation">NZ のカフェはカウンターで注文して先払いが多い。レストランはテーブルで注文。「Eat in or takeaway?」「Any sauces?」「Flat white?」などの短い確認質問が連続で来るので、ここが一番リスニングの練習になる。</p>
+
+  <h2><span class="tag listen">聞く</span>聞こえてくる言葉</h2>
+  <ul class="pairs">
+    <li><div class="en">Hi, how are you? What can I get you?</div><div class="ja">こんにちは。ご注文は?(How are you は挨拶、Good thanks で OK)</div></li><li><div class="en">Eat in or takeaway?</div><div class="ja">店内で? 持ち帰り?</div></li><li><div class="en">Would you like that heated up?</div><div class="ja">温めますか?</div></li><li><div class="en">Any sauces with that? Tomato or aioli?</div><div class="ja">ソースは? ケチャップかアイオリ?</div></li><li><div class="en">What size? Regular or large?</div><div class="ja">サイズは?</div></li><li><div class="en">Did you want milk with that? Trim, full, or oat?</div><div class="ja">ミルクは? 低脂肪・普通・オーツ?</div></li><li><div class="en">That'll be twenty-four fifty. Tap your card there.</div><div class="ja">24ドル50です。そこでカードをタッチしてください。</div></li><li><div class="en">Take a number and we'll bring it over.</div><div class="ja">番号札を持ってお席へ。お持ちします。</div></li>
+  </ul>
+
+  <h2><span class="tag speak">話す</span>自分が言うフレーズ</h2>
+  <ul class="pairs">
+    <li><div class="en">A table for two, please.</div><div class="ja">2人です。</div></li><li><div class="en">Do we order at the counter?</div><div class="ja">注文はカウンターですか?</div></li><li><div class="en">I'd like the fish and chips, and a flat white, please.</div><div class="ja">フィッシュ&amp;チップスとフラットホワイトをお願いします。</div></li><li><div class="en">She'll have the salmon.</div><div class="ja">彼女はサーモンで。</div></li><li><div class="en">Does this have nuts in it? My partner is allergic to nuts.</div><div class="ja">これにナッツは入っていますか? 連れがナッツアレルギーです。</div></li><li><div class="en">Could we get it without onion?</div><div class="ja">玉ねぎ抜きでできますか?</div></li><li><div class="en">Eat in, please. / Takeaway, please.</div><div class="ja">店内で。/ 持ち帰りで。</div></li><li><div class="en">What do you recommend?</div><div class="ja">おすすめは何ですか?</div></li><li><div class="en">Could we get the bill, please?</div><div class="ja">お会計をお願いします。</div></li><li><div class="en">Can we pay separately? / Together, please.</div><div class="ja">別々に払えますか? / 一緒で。</div></li><li><div class="en">Do you have a toilet?</div><div class="ja">トイレはありますか?</div></li>
+  </ul>
+
+  <h2><span class="tag talk">会話</span>ロールプレイ台本</h2>
+  <table class="dialogue">
+    <tr class="them"><td class="who">Staff</td><td class="en">Hi, how's it going? What can I get you?</td><td class="ja">こんにちは、調子どう? ご注文は?</td></tr><tr class="you"><td class="who">You</td><td class="en">Good, thanks. One flat white and one long black, please.</td><td class="ja">元気です。フラットホワイト1つとロングブラック1つお願いします。</td></tr><tr class="them"><td class="who">Staff</td><td class="en">Sure. Eat in or takeaway?</td><td class="ja">はい。店内で? 持ち帰り?</td></tr><tr class="you"><td class="who">You</td><td class="en">Eat in, please. And the eggs benedict — does that have nuts? My partner is allergic.</td><td class="ja">店内で。それとエッグベネディクト、ナッツは入っていますか? 連れがアレルギーです。</td></tr><tr class="them"><td class="who">Staff</td><td class="en">No nuts in that one. The granola has nuts though.</td><td class="ja">それには入っていません。グラノーラには入っています。</td></tr><tr class="you"><td class="who">You</td><td class="en">Okay, one eggs benedict then. And the big breakfast for me.</td><td class="ja">ではエッグベネディクト1つ。私はビッグブレックファストで。</td></tr><tr class="them"><td class="who">Staff</td><td class="en">How would you like your eggs? Poached, fried, or scrambled?</td><td class="ja">卵はどうしますか? ポーチド、目玉焼き、スクランブル?</td></tr><tr class="you"><td class="who">You</td><td class="en">Sorry, could you say that again?</td><td class="ja">すみません、もう一度お願いします。</td></tr><tr class="them"><td class="who">Staff</td><td class="en">Your eggs — poached, fried, or scrambled?</td><td class="ja">卵です。ポーチド、目玉焼き、スクランブル?</td></tr><tr class="you"><td class="who">You</td><td class="en">Scrambled, please.</td><td class="ja">スクランブルで。</td></tr><tr class="them"><td class="who">Staff</td><td class="en">That's forty-three eighty. Tap your card there. Take a number, we'll bring it out.</td><td class="ja">43ドル80です。そこでカードをタッチ。番号札を持ってお席へ。</td></tr><tr class="you"><td class="who">You</td><td class="en">Thanks.</td><td class="ja">ありがとう。</td></tr>
+  </table>
+
+  <div class="two-col">
+    <div>
+      <h2><span class="tag num">数字</span>数字・固有名詞ドリル</h2>
+      <ul class="numbers"><li>twenty-four fifty ($24.50)</li><li>forty-three eighty ($43.80)</li><li>table for two</li><li>number seventeen</li><li>fifteen minutes</li><li>closes at three</li></ul>
+    </div>
+    <div>
+      <h2><span class="tag memo">メモ</span>知っておくこと</h2>
+      <p class="tips">flat white は NZ 発祥のラテ。long black はアメリカーノ。カフェは先払い・番号札が普通。アレルギーは allergic to ~ を丸暗記。チップ文化はほぼ無い。</p>
+    </div>
+  </div>
+</section>
+
+<section class="scene">
+  <header class="scene-head">
+    <div class="num">SCENE 5</div>
+    <h1>ガソリン給油・支払い</h1>
+    <div class="sub">Filling up at a petrol station <span class="day">Day 2, 5, 7 — Tekapo / Wanaka / Te Anau</span></div>
+  </header>
+  <p class="situation">NZ はセルフ給油。先に給油してから店内でポンプ番号を言って払う店と、先払い(prepay)の店がある。Milford Road には給油所が無いので Te Anau で満タンにする。田舎は無人の24時間カード式も多い。</p>
+
+  <h2><span class="tag listen">聞く</span>聞こえてくる言葉</h2>
+  <ul class="pairs">
+    <li><div class="en">Which pump?</div><div class="ja">何番ポンプ?</div></li><li><div class="en">Is that prepay, or are you paying after?</div><div class="ja">先払いですか? 後払いですか?</div></li><li><div class="en">How much would you like? Or fill it up?</div><div class="ja">いくら分? それとも満タン?</div></li><li><div class="en">Would you like a receipt?</div><div class="ja">レシートはいりますか?</div></li><li><div class="en">Anything else with that?</div><div class="ja">他に何か?</div></li><li><div class="en">Just tap there when you're ready.</div><div class="ja">準備できたらそこでタッチしてください。</div></li><li><div class="en">That pump's card-only, sorry.</div><div class="ja">そのポンプはカード専用です。</div></li>
+  </ul>
+
+  <h2><span class="tag speak">話す</span>自分が言うフレーズ</h2>
+  <ul class="pairs">
+    <li><div class="en">Pump number three, please.</div><div class="ja">3番ポンプです。</div></li><li><div class="en">Do I pay inside, or at the pump?</div><div class="ja">店内で払いますか? ポンプで払いますか?</div></li><li><div class="en">Fill it up, please. Ninety-one.</div><div class="ja">満タンで。91で。</div></li><li><div class="en">Sixty dollars on pump four, please.</div><div class="ja">4番に60ドル分お願いします。</div></li><li><div class="en">Which one is ninety-one? The green one?</div><div class="ja">91はどれですか? 緑ですか?</div></li><li><div class="en">The pump isn't working. Could you help me?</div><div class="ja">ポンプが動きません。手伝ってもらえますか?</div></li><li><div class="en">Where is the next petrol station on the way to Milford?</div><div class="ja">Milford へ向かう途中、次の給油所はどこですか?</div></li><li><div class="en">Yes, a receipt, please.</div><div class="ja">はい、レシートをお願いします。</div></li><li><div class="en">Do you have a toilet I can use?</div><div class="ja">トイレを借りられますか?</div></li>
+  </ul>
+
+  <h2><span class="tag talk">会話</span>ロールプレイ台本</h2>
+  <table class="dialogue">
+    <tr class="you"><td class="who">You</td><td class="en">Hi. Do I pay inside, or at the pump?</td><td class="ja">こんにちは。店内払いですか? ポンプで払いますか?</td></tr><tr class="them"><td class="who">Staff</td><td class="en">You can pay after. Which pump are you on?</td><td class="ja">後払いで大丈夫です。何番ポンプですか?</td></tr><tr class="you"><td class="who">You</td><td class="en">Pump three. I'll fill it up.</td><td class="ja">3番です。満タンにします。</td></tr><tr class="them"><td class="who">Staff</td><td class="en">Sweet as. Come back in when you're done.</td><td class="ja">了解。終わったら来てください。(Sweet as = OK の NZ 英語)</td></tr><tr class="you"><td class="who">You</td><td class="en">(after filling) Pump three, please.</td><td class="ja">(給油後)3番ポンプです。</td></tr><tr class="them"><td class="who">Staff</td><td class="en">That's eighty-seven twenty. Anything else?</td><td class="ja">87ドル20です。他には?</td></tr><tr class="you"><td class="who">You</td><td class="en">No, that's all. Card, please.</td><td class="ja">いえ、それだけです。カードで。</td></tr><tr class="them"><td class="who">Staff</td><td class="en">Tap there. Receipt?</td><td class="ja">そこでタッチ。レシートは?</td></tr><tr class="you"><td class="who">You</td><td class="en">Yes, please. Oh — is there a petrol station between here and Milford Sound?</td><td class="ja">はい。あと、ここと Milford Sound の間に給油所はありますか?</td></tr><tr class="them"><td class="who">Staff</td><td class="en">No, nothing after Te Anau. You've got plenty now, though.</td><td class="ja">ありません。Te Anau が最後です。でも今は十分ありますよ。</td></tr><tr class="you"><td class="who">You</td><td class="en">Great, thanks.</td><td class="ja">よかった、ありがとう。</td></tr>
+  </table>
+
+  <div class="two-col">
+    <div>
+      <h2><span class="tag num">数字</span>数字・固有名詞ドリル</h2>
+      <ul class="numbers"><li>pump three</li><li>ninety-one / ninety-five</li><li>sixty dollars</li><li>eighty-seven twenty ($87.20)</li><li>forty litres</li><li>a hundred and twenty k's (120 km)</li></ul>
+    </div>
+    <div>
+      <h2><span class="tag memo">メモ</span>知っておくこと</h2>
+      <p class="tips">NZ 英語: petrol(ガソリン)、91 / 95 は octane。店員の Sweet as / No worries / Cheers は全部「OK・ありがとう」。Milford Road は往復 240 km で給油所ゼロ。</p>
+    </div>
+  </div>
+</section>
+
+<section class="scene">
+  <header class="scene-head">
+    <div class="num">SCENE 6</div>
+    <h1>道路・駐車・通行止め・一車線橋について尋ねる</h1>
+    <div class="sub">Roads, parking, closures &amp; one-lane bridges <span class="day">Day 3, 7-8 — Pukaki / Milford Road</span></div>
+  </header>
+  <p class="situation">DOC ビジターセンターや i-SITE(観光案内所)で道路状況を聞く。Milford Road は雪崩・落石で閉鎖されることがある。駐車場の払い方、トレイル入口までの所要時間、一車線橋の譲り方を確認する。</p>
+
+  <h2><span class="tag listen">聞く</span>聞こえてくる言葉</h2>
+  <ul class="pairs">
+    <li><div class="en">The road's open, but there's a chain requirement from Homer Tunnel.</div><div class="ja">道路は開いていますが、Homer Tunnel からチェーン規制です。</div></li><li><div class="en">It's about two hours from here, without stops.</div><div class="ja">ここから休憩なしで約2時間です。</div></li><li><div class="en">Give way to traffic already on the bridge.</div><div class="ja">橋の上にいる車に道を譲ってください。</div></li><li><div class="en">Parking is pay and display. Four dollars an hour.</div><div class="ja">駐車は先払いチケット式。1時間4ドル。</div></li><li><div class="en">The car park fills up by nine, so get there early.</div><div class="ja">駐車場は9時までに満車になるので早めに。</div></li><li><div class="en">There's no phone signal past Te Anau Downs.</div><div class="ja">Te Anau Downs から先は電波がありません。</div></li>
+  </ul>
+
+  <h2><span class="tag speak">話す</span>自分が言うフレーズ</h2>
+  <ul class="pairs">
+    <li><div class="en">Is the road to Milford Sound open today?</div><div class="ja">今日 Milford Sound への道は開いていますか?</div></li><li><div class="en">Do we need chains?</div><div class="ja">チェーンは必要ですか?</div></li><li><div class="en">How long does it take to drive to Te Anau from here?</div><div class="ja">ここから Te Anau まで車でどのくらいですか?</div></li><li><div class="en">Where can I park? Is it free?</div><div class="ja">どこに停められますか? 無料ですか?</div></li><li><div class="en">How do I pay for parking?</div><div class="ja">駐車料金はどう払いますか?</div></li><li><div class="en">Can we park here overnight?</div><div class="ja">ここに一晩停められますか?</div></li><li><div class="en">Who gives way on a one-lane bridge?</div><div class="ja">一車線橋ではどちらが譲りますか?</div></li><li><div class="en">Is the Hooker Valley Track open? How long is it return?</div><div class="ja">Hooker Valley Track は開いていますか? 往復どのくらい?</div></li><li><div class="en">Where is the nearest toilet?</div><div class="ja">一番近いトイレはどこですか?</div></li><li><div class="en">Is there phone signal on the way?</div><div class="ja">途中で電波はありますか?</div></li>
+  </ul>
+
+  <h2><span class="tag talk">会話</span>ロールプレイ台本</h2>
+  <table class="dialogue">
+    <tr class="you"><td class="who">You</td><td class="en">Hi. Is the road to Milford Sound open tomorrow?</td><td class="ja">こんにちは。明日 Milford Sound への道は開いていますか?</td></tr><tr class="them"><td class="who">Ranger</td><td class="en">At the moment, yes. Check the NZTA site in the morning — it can close with heavy rain.</td><td class="ja">今のところは。朝に NZTA のサイトを確認して。大雨で閉まることがあります。</td></tr><tr class="you"><td class="who">You</td><td class="en">Sorry, which site?</td><td class="ja">すみません、どのサイトですか?</td></tr><tr class="them"><td class="who">Ranger</td><td class="en">N-Z-T-A. I'll write it down for you. Do you need chains? Not this time of year.</td><td class="ja">NZTA。書きますね。チェーンは? この時期は不要です。</td></tr><tr class="you"><td class="who">You</td><td class="en">Thanks. How long does it take from Te Anau?</td><td class="ja">ありがとう。Te Anau からどのくらいかかりますか?</td></tr><tr class="them"><td class="who">Ranger</td><td class="en">About two hours without stops. Allow three — you'll want to stop at Mirror Lakes and the Chasm.</td><td class="ja">休憩なしで約2時間。3時間みてください。Mirror Lakes と the Chasm で止まりたくなるので。</td></tr><tr class="you"><td class="who">You</td><td class="en">Three hours. And there are a lot of one-lane bridges, right? Who gives way?</td><td class="ja">3時間ですね。一車線橋が多いですよね? どちらが譲りますか?</td></tr><tr class="them"><td class="who">Ranger</td><td class="en">Look at the sign. A big black arrow means you have the right of way. A red one means you give way.</td><td class="ja">標識を見て。大きな黒矢印は優先。赤矢印は譲る側です。</td></tr><tr class="you"><td class="who">You</td><td class="en">Big black arrow, go. Red arrow, wait. Got it. Is there phone signal on the way?</td><td class="ja">黒矢印は進む、赤は待つ。了解。途中で電波はありますか?</td></tr><tr class="them"><td class="who">Ranger</td><td class="en">Not much after Te Anau Downs. Download your maps before you go.</td><td class="ja">Te Anau Downs 以降はほぼ無し。出発前に地図をダウンロードして。</td></tr><tr class="you"><td class="who">You</td><td class="en">Will do. Thank you.</td><td class="ja">そうします。ありがとうございます。</td></tr>
+  </table>
+
+  <div class="two-col">
+    <div>
+      <h2><span class="tag num">数字</span>数字・固有名詞ドリル</h2>
+      <ul class="numbers"><li>about two hours</li><li>allow three hours</li><li>four dollars an hour</li><li>fills up by nine</li><li>hundred k's an hour (100 km/h)</li><li>one hundred and twenty kilometres</li></ul>
+    </div>
+    <div>
+      <h2><span class="tag memo">メモ</span>知っておくこと</h2>
+      <p class="tips">give way = 譲る。right of way = 優先。NZ の制限速度は郊外 100 km/h、市街 50 km/h。駐車は pay and display(機械でチケットを買ってダッシュボードに置く)が多い。</p>
+    </div>
+  </div>
+</section>
+
+<section class="scene">
+  <header class="scene-head">
+    <div class="num">SCENE 7</div>
+    <h1>観光予約・天候による変更・キャンセル</h1>
+    <div class="sub">Tours, bookings &amp; weather changes <span class="day">Day 4 Hooker Valley / Day 8 Milford Sound cruise</span></div>
+  </header>
+  <p class="situation">Milford Sound のクルーズを予約・変更する。天気が悪いときの変更やキャンセル規定、集合場所と時間、所要時間を確認する。Tekapo の星空ツアーも同じパターン。</p>
+
+  <h2><span class="tag listen">聞く</span>聞こえてくる言葉</h2>
+  <ul class="pairs">
+    <li><div class="en">Which departure would you like? We have ten-thirty, one o'clock, and three.</div><div class="ja">どの便にしますか? 10時30分、13時、15時があります。</div></li><li><div class="en">Please check in at the terminal thirty minutes before.</div><div class="ja">30分前にターミナルでチェックインしてください。</div></li><li><div class="en">If we cancel due to weather, you get a full refund.</div><div class="ja">天候で当社がキャンセルした場合は全額返金です。</div></li><li><div class="en">If you cancel within twenty-four hours, there's no refund.</div><div class="ja">24時間以内のお客様都合キャンセルは返金なしです。</div></li><li><div class="en">The cruise is about an hour and forty-five minutes.</div><div class="ja">クルーズは約1時間45分です。</div></li><li><div class="en">Have you got your confirmation number?</div><div class="ja">予約番号はありますか?</div></li><li><div class="en">Lunch is an extra fifteen dollars per person.</div><div class="ja">昼食は1人15ドル追加です。</div></li>
+  </ul>
+
+  <h2><span class="tag speak">話す</span>自分が言うフレーズ</h2>
+  <ul class="pairs">
+    <li><div class="en">We'd like to book the one o'clock cruise for two, please.</div><div class="ja">13時のクルーズを2人で予約したいです。</div></li><li><div class="en">How long is the cruise?</div><div class="ja">クルーズはどのくらいの長さですか?</div></li><li><div class="en">Where do we check in, and what time?</div><div class="ja">どこで何時にチェックインですか?</div></li><li><div class="en">What happens if the weather is bad?</div><div class="ja">天気が悪い場合はどうなりますか?</div></li><li><div class="en">What's the cancellation policy?</div><div class="ja">キャンセル規定はどうなっていますか?</div></li><li><div class="en">Can we change to tomorrow's cruise instead?</div><div class="ja">明日のクルーズに変更できますか?</div></li><li><div class="en">Is there a refund if we cancel?</div><div class="ja">キャンセルしたら返金はありますか?</div></li><li><div class="en">Is lunch included?</div><div class="ja">昼食は含まれていますか?</div></li><li><div class="en">We have a booking. The confirmation number is ...</div><div class="ja">予約があります。予約番号は…です。</div></li><li><div class="en">Is the track open today? Is it safe in this weather?</div><div class="ja">今日トレイルは開いていますか? この天気でも安全ですか?</div></li>
+  </ul>
+
+  <h2><span class="tag talk">会話</span>ロールプレイ台本</h2>
+  <table class="dialogue">
+    <tr class="you"><td class="who">You</td><td class="en">Hi. We'd like to book a Milford Sound cruise for two, for Thursday.</td><td class="ja">こんにちは。木曜に Milford Sound クルーズを2人で予約したいです。</td></tr><tr class="them"><td class="who">Agent</td><td class="en">Sure. We have ten-thirty, one o'clock, and three. Which would you like?</td><td class="ja">はい。10時30分、13時、15時があります。どれにしますか?</td></tr><tr class="you"><td class="who">You</td><td class="en">One o'clock, please. How long is it?</td><td class="ja">13時で。どのくらいの長さですか?</td></tr><tr class="them"><td class="who">Agent</td><td class="en">About an hour and forty-five minutes. Check in at the terminal thirty minutes before.</td><td class="ja">約1時間45分。30分前にターミナルでチェックインです。</td></tr><tr class="you"><td class="who">You</td><td class="en">Twelve-thirty at the terminal. What happens if the weather is bad?</td><td class="ja">12時30分にターミナルですね。天気が悪い場合は?</td></tr><tr class="them"><td class="who">Agent</td><td class="en">Cruises run in the rain — actually the waterfalls are better. If we cancel, you get a full refund.</td><td class="ja">雨でも運航します。むしろ滝がきれいです。当社がキャンセルすれば全額返金です。</td></tr><tr class="you"><td class="who">You</td><td class="en">And if we want to change the day?</td><td class="ja">こちらが日を変えたい場合は?</td></tr><tr class="them"><td class="who">Agent</td><td class="en">Free changes up to twenty-four hours before. Inside twenty-four hours, no refund.</td><td class="ja">24時間前までは無料変更。24時間以内は返金なしです。</td></tr><tr class="you"><td class="who">You</td><td class="en">Sorry, could you write that down? Twenty-four hours?</td><td class="ja">すみません、書いてもらえますか? 24時間?</td></tr><tr class="them"><td class="who">Agent</td><td class="en">Sure. Here you go. Would you like to add lunch? Fifteen dollars each.</td><td class="ja">はい、どうぞ。昼食を追加しますか? 1人15ドルです。</td></tr><tr class="you"><td class="who">You</td><td class="en">No thanks, we'll bring our own. Card, please.</td><td class="ja">いえ、持参します。カードで。</td></tr>
+  </table>
+
+  <div class="two-col">
+    <div>
+      <h2><span class="tag num">数字</span>数字・固有名詞ドリル</h2>
+      <ul class="numbers"><li>ten-thirty / one o'clock / three</li><li>thirty minutes before</li><li>an hour and forty-five minutes</li><li>twenty-four hours</li><li>fifteen dollars each</li><li>confirmation number M-S-4-7-2-9</li></ul>
+    </div>
+    <div>
+      <h2><span class="tag memo">メモ</span>知っておくこと</h2>
+      <p class="tips">時刻は 12 時間制で言われる。half past ten = 10:30、quarter to one = 12:45 も出る。予約番号は紙かスクショで見せるのが最速。</p>
+    </div>
+  </div>
+</section>
+
+<section class="scene">
+  <header class="scene-head">
+    <div class="num">SCENE 8</div>
+    <h1>パンク・故障・事故・体調不良時の助けの求め方</h1>
+    <div class="sub">Flat tyre, breakdown, accident &amp; feeling sick <span class="day">いつでも</span></div>
+  </header>
+  <p class="situation">田舎道でパンク、エンジンがかからない、軽い接触事故、パートナーの発熱。NZ の緊急番号は 111(警察・救急・消防)。レンタカーのロードサービス番号は契約書にある。電波がないときは次の車や近くの家に助けを求める。</p>
+
+  <h2><span class="tag listen">聞く</span>聞こえてくる言葉</h2>
+  <ul class="pairs">
+    <li><div class="en">Emergency. Which service do you need — police, fire, or ambulance?</div><div class="ja">緊急です。警察・消防・救急のどれですか?</div></li><li><div class="en">Where are you? What's your location?</div><div class="ja">場所はどこですか?</div></li><li><div class="en">Is anyone hurt?</div><div class="ja">けが人はいますか?</div></li><li><div class="en">What's your rego — the number plate?</div><div class="ja">ナンバープレートは?</div></li><li><div class="en">Stay with the vehicle. Someone will be there in about forty minutes.</div><div class="ja">車のそばにいてください。約40分で到着します。</div></li><li><div class="en">Do you have any allergies? Are you on any medication?</div><div class="ja">アレルギーは? 服用中の薬は?</div></li><li><div class="en">The nearest medical centre is in Twizel, about thirty minutes away.</div><div class="ja">一番近い診療所は Twizel で、約30分です。</div></li>
+  </ul>
+
+  <h2><span class="tag speak">話す</span>自分が言うフレーズ</h2>
+  <ul class="pairs">
+    <li><div class="en">We have a flat tyre. Can you help us?</div><div class="ja">パンクしました。助けてもらえますか?</div></li><li><div class="en">The car won't start.</div><div class="ja">車のエンジンがかかりません。</div></li><li><div class="en">We've had a small accident. No one is hurt.</div><div class="ja">軽い事故を起こしました。けが人はいません。</div></li><li><div class="en">We're on State Highway 8, about ten minutes south of Lake Pukaki.</div><div class="ja">国道8号、Lake Pukaki の南約10分の所にいます。</div></li><li><div class="en">Our rental company is Apex. The plate number is ...</div><div class="ja">レンタカー会社は Apex です。ナンバーは…</div></li><li><div class="en">My partner feels sick. She has a fever and a headache.</div><div class="ja">連れの具合が悪いです。熱と頭痛があります。</div></li><li><div class="en">Is there a pharmacy or a medical centre nearby?</div><div class="ja">近くに薬局か診療所はありますか?</div></li><li><div class="en">We need a doctor. Where should we go?</div><div class="ja">医者が必要です。どこへ行けばいいですか?</div></li><li><div class="en">I don't understand. Could you text me the address?</div><div class="ja">分かりません。住所をメッセージで送ってもらえますか?</div></li><li><div class="en">Could you call this number for me? My English is limited.</div><div class="ja">この番号に代わりに電話してもらえますか? 英語が限られています。</div></li>
+  </ul>
+
+  <h2><span class="tag talk">会話</span>ロールプレイ台本</h2>
+  <table class="dialogue">
+    <tr class="them"><td class="who">Operator</td><td class="en">Roadside assistance, this is Sam. How can I help?</td><td class="ja">ロードサービスの Sam です。どうしましたか?</td></tr><tr class="you"><td class="who">You</td><td class="en">Hi. We have a rental car from Apex. We have a flat tyre.</td><td class="ja">こんにちは。Apex のレンタカーです。パンクしました。</td></tr><tr class="them"><td class="who">Operator</td><td class="en">Okay. Is everyone safe? Are you off the road?</td><td class="ja">わかりました。全員無事ですか? 路肩に寄せていますか?</td></tr><tr class="you"><td class="who">You</td><td class="en">Yes, we're safe. We're off the road.</td><td class="ja">はい、無事です。路肩にいます。</td></tr><tr class="them"><td class="who">Operator</td><td class="en">Good. What's your location?</td><td class="ja">よかった。場所は?</td></tr><tr class="you"><td class="who">You</td><td class="en">State Highway 8, about ten minutes south of Lake Pukaki. Near a sign that says Twizel 20.</td><td class="ja">国道8号、Lake Pukaki の南10分くらい。「Twizel 20」の標識の近くです。</td></tr><tr class="them"><td class="who">Operator</td><td class="en">And the rego — the number plate?</td><td class="ja">ナンバープレートは?</td></tr><tr class="you"><td class="who">You</td><td class="en">Sorry, the what?</td><td class="ja">すみません、何ですか?</td></tr><tr class="them"><td class="who">Operator</td><td class="en">The number plate on the car.</td><td class="ja">車のナンバープレートです。</td></tr><tr class="you"><td class="who">You</td><td class="en">Ah. M-K-T, four, five, two.</td><td class="ja">ああ。MKT 452 です。</td></tr><tr class="them"><td class="who">Operator</td><td class="en">Thanks. Stay with the vehicle. Someone will be there in about forty minutes. Is this number okay to text?</td><td class="ja">ありがとう。車のそばにいてください。約40分で向かいます。この番号にメッセージを送ってもいいですか?</td></tr><tr class="you"><td class="who">You</td><td class="en">Yes, please text me. Thank you.</td><td class="ja">はい、メッセージをお願いします。ありがとう。</td></tr>
+  </table>
+
+  <div class="two-col">
+    <div>
+      <h2><span class="tag num">数字</span>数字・固有名詞ドリル</h2>
+      <ul class="numbers"><li>one one one (111)</li><li>State Highway 8</li><li>about forty minutes</li><li>ten minutes south</li><li>plate M-K-T four five two</li><li>a temperature of thirty-eight point five</li></ul>
+    </div>
+    <div>
+      <h2><span class="tag memo">メモ</span>知っておくこと</h2>
+      <p class="tips">rego = registration(ナンバー)。NZ の 111 は日本語通訳(interpreter)を頼める。「場所」は 道路番号 + 直近の町 + 標識 の3つで伝える。パートナーの薬・アレルギーは英語で書いたメモを財布に入れておく。</p>
+    </div>
+  </div>
+</section>
+</body></html>

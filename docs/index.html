@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>今日の旅行英語</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">今日の旅行英語 <span class="sub">NZ South Island</span></div>
+  <nav>
+    <button id="btn-today" class="nav active">今日</button>
+    <button id="btn-all" class="nav">全場面</button>
+    <button id="btn-log" class="nav">記録</button>
+  </nav>
+</header>
+
+<main id="app">
+  <p class="loading">読み込み中…</p>
+</main>
+
+<template id="tpl-scene">
+  <article class="scene">
+    <div class="scene-head">
+      <div class="num"></div>
+      <h1 class="title-ja"></h1>
+      <div class="title-en"></div>
+      <div class="meta"><span class="day"></span><span class="due"></span></div>
+    </div>
+    <p class="situation"></p>
+
+    <div class="controls">
+      <label>速さ
+        <select class="rate">
+          <option value="0.7">ゆっくり 0.7</option>
+          <option value="0.85" selected>少しゆっくり 0.85</option>
+          <option value="1">ふつう 1.0</option>
+        </select>
+      </label>
+      <label><input type="checkbox" class="hide-en"> 英語を隠す(日本語だけ見て言う)</label>
+    </div>
+
+    <section>
+      <h2><span class="tag listen">聞く</span>聞こえてくる言葉 <button class="play-all small" data-group="listen">▶ 全部</button></h2>
+      <ul class="pairs listen"></ul>
+    </section>
+
+    <section>
+      <h2><span class="tag speak">話す</span>自分が言うフレーズ <button class="play-all small" data-group="phrases">▶ 全部</button></h2>
+      <ul class="pairs phrases"></ul>
+    </section>
+
+    <section>
+      <h2><span class="tag talk">会話</span>ロールプレイ <button class="play-all small" data-group="dialogue">▶ 相手役だけ再生</button></h2>
+      <p class="hint">「相手役だけ再生」は、相手のセリフを読み上げて自分の番で止まる。自分のセリフを言ってから「次へ」。</p>
+      <ol class="dialogue"></ol>
+    </section>
+
+    <section>
+      <h2><span class="tag num">数字</span>数字ドリル <button class="play-all small" data-group="numbers">▶ ランダム再生</button></h2>
+      <p class="hint">聞いて、紙に書いてから、答えを開く。</p>
+      <ul class="numbers"></ul>
+    </section>
+
+    <section>
+      <h2><span class="tag memo">メモ</span></h2>
+      <p class="tips"></p>
+    </section>
+
+    <section class="record">
+      <h2>自分の録音</h2>
+      <div class="rec-controls">
+        <button class="rec-start">● 録音開始</button>
+        <button class="rec-stop" disabled>■ 停止</button>
+        <audio class="rec-audio" controls></audio>
+      </div>
+      <p class="hint rec-hint">録音はこの端末のブラウザにだけ保存されます(場面ごとに最新1つ)。</p>
+    </section>
+
+    <section class="result">
+      <h2>今日の結果</h2>
+      <div class="result-grid">
+        <label><input type="checkbox" class="r-listened"> 聞けた(聞こえてくる言葉が分かった)</label>
+        <label><input type="checkbox" class="r-spoke"> 言えた(フレーズを口に出せた)</label>
+        <label><input type="checkbox" class="r-noscript"> 台本なしでできた(週の主指標)</label>
+      </div>
+      <div class="result-notes">
+        <input class="n-said" placeholder="言えた1つ (例: Could you write that down?)">
+        <input class="n-stuck" placeholder="詰まった1つ (例: excess が聞き取れなかった)">
+      </div>
+      <div class="result-actions">
+        <button class="save primary">記録して次の復習日を決める</button>
+        <button class="redo">要復習(明日もう一回)</button>
+      </div>
+      <p class="saved-msg"></p>
+    </section>
+  </article>
+</template>
+
+<template id="tpl-repair">
+  <aside class="repair">
+    <h2>聞き返しフレーズ(全場面共通)</h2>
+    <ul class="pairs"></ul>
+  </aside>
+</template>
+
+<footer class="foot">
+  <span>データ: scenes.json / 進捗: この端末の localStorage</span>
+  <a href="https://github.com/moriwakihikari/nz-english">GitHub</a>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

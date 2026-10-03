@@ -1,0 +1,363 @@
+{
+  "repair": [
+    {"en": "Sorry, could you say that again?", "ja": "すみません、もう一度言ってもらえますか?"},
+    {"en": "Could you speak more slowly, please?", "ja": "もう少しゆっくり話してもらえますか?"},
+    {"en": "Could you write that down for me?", "ja": "書いてもらえますか?"},
+    {"en": "Sorry, do you mean ... ?", "ja": "それは…ということですか?(自分の言葉で言い直す)"},
+    {"en": "Just a moment, let me check with my partner.", "ja": "ちょっと待ってください、相手と確認します。"},
+    {"en": "My English isn't great, but I'll try.", "ja": "英語は得意じゃないですが、がんばります。"}
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "slug": "airport-arrival",
+      "title_en": "Airport arrival & finding the rental car desk",
+      "title_ja": "空港到着・レンタカー会社を探す",
+      "day": "Day 1 — Christchurch Airport",
+      "situation": "長距離フライトのあと、Christchurch 空港に到着。入国審査と税関(NZ は食品・靴の泥に厳しい)を通り、レンタカーのカウンターかシャトル乗り場を探す。",
+      "listen": [
+        {"en": "What's the purpose of your visit?", "ja": "滞在の目的は?(→ Sightseeing. / Holiday.)"},
+        {"en": "How long are you staying?", "ja": "滞在期間は?(→ Nine days.)"},
+        {"en": "Are you bringing any food, plants, or hiking boots?", "ja": "食品・植物・登山靴は持っていますか?(税関。正直に Yes/No)"},
+        {"en": "Have you been on a farm recently?", "ja": "最近農場に行きましたか?"},
+        {"en": "Rental cars are on the ground floor, through those doors.", "ja": "レンタカーは1階、あのドアの先です。"},
+        {"en": "The shuttle leaves every ten minutes from bay four.", "ja": "シャトルは4番乗り場から10分おきです。"}
+      ],
+      "phrases": [
+        {"en": "We're here on holiday for nine days.", "ja": "9日間の休暇で来ました。"},
+        {"en": "Excuse me, where is the rental car pick-up?", "ja": "すみません、レンタカーの受取はどこですか?"},
+        {"en": "We have a booking with Apex. Is their desk in the terminal?", "ja": "Apex で予約しています。カウンターはターミナル内ですか?"},
+        {"en": "Where does the shuttle leave from?", "ja": "シャトルはどこから出ますか?"},
+        {"en": "Is there an ATM or a SIM card shop nearby?", "ja": "近くに ATM か SIM の店はありますか?"},
+        {"en": "Yes, I have hiking boots. They're clean.", "ja": "はい、登山靴があります。きれいにしてあります。"},
+        {"en": "Which way to the exit?", "ja": "出口はどちらですか?"}
+      ],
+      "dialogue": [
+        {"who": "Officer", "en": "Good morning. What's the purpose of your visit?", "ja": "おはようございます。滞在の目的は?"},
+        {"who": "You", "en": "Sightseeing. We're here for nine days.", "ja": "観光です。9日間滞在します。"},
+        {"who": "Officer", "en": "Are you bringing any food or hiking boots?", "ja": "食品や登山靴はありますか?"},
+        {"who": "You", "en": "Yes, hiking boots. They're clean. No food.", "ja": "はい、登山靴があります。きれいです。食品はありません。"},
+        {"who": "Officer", "en": "Okay, go through lane two, please.", "ja": "では2番レーンへどうぞ。"},
+        {"who": "You", "en": "Sorry, which lane?", "ja": "すみません、何番レーンですか?"},
+        {"who": "Officer", "en": "Lane two. On your left.", "ja": "2番です。左側。"},
+        {"who": "You", "en": "Thank you.", "ja": "ありがとうございます。"},
+        {"who": "You", "en": "Excuse me, where is the rental car pick-up? We have a booking with Apex.", "ja": "すみません、レンタカー受取はどこですか? Apex で予約しています。"},
+        {"who": "Staff", "en": "Apex is off-site. Their shuttle leaves from bay four, every ten minutes.", "ja": "Apex は空港外です。シャトルは4番乗り場から10分おきです。"},
+        {"who": "You", "en": "Bay four. Is that outside this door?", "ja": "4番乗り場。このドアの外ですか?"},
+        {"who": "Staff", "en": "Yes, straight out and to the right.", "ja": "はい、まっすぐ出て右です。"}
+      ],
+      "numbers": ["nine days", "lane two", "bay four", "every ten minutes", "ground floor", "gate 23"],
+      "tips": "NZ の入国カードと税関は「申告漏れ」に罰金が出る。靴に泥がついていると洗われる(問題ない)。聞き取れなければ Sorry? と言えば言い直してくれる。"
+    },
+    {
+      "id": 2,
+      "slug": "rental-car-pickup",
+      "title_en": "Picking up the rental car",
+      "title_ja": "レンタカー受取(保険・傷・左側通行)",
+      "day": "Day 1 — Christchurch",
+      "situation": "レンタカーのカウンターで免許証とクレジットカードを出し、保険の免責(excess)を説明され、車の傷を一緒に確認する。NZ は左側通行で日本と同じ。返却時の燃料ルールも確認する。",
+      "listen": [
+        {"en": "Can I see your licence and a credit card, please?", "ja": "免許証とクレジットカードを見せてください。(国際免許 + 日本の免許の両方)"},
+        {"en": "Would you like to reduce the excess?", "ja": "免責額を下げますか?(追加保険の勧め)"},
+        {"en": "The excess is three thousand dollars. With the reduction, it's zero.", "ja": "免責は3,000ドルです。追加保険で0になります。"},
+        {"en": "We'll put a hold of five hundred dollars on your card.", "ja": "カードに500ドルの仮押さえをします。"},
+        {"en": "Please check the car and note any damage on this sheet.", "ja": "車を確認して、傷をこの用紙に記入してください。"},
+        {"en": "Return it with a full tank. It takes ninety-one unleaded.", "ja": "満タンで返却。燃料は91(レギュラー)です。"},
+        {"en": "Remember to keep left, and watch out for one-lane bridges.", "ja": "左側通行を忘れずに。一車線橋に注意。"}
+      ],
+      "phrases": [
+        {"en": "Here's my licence, my international permit, and my card.", "ja": "免許証、国際免許、カードです。"},
+        {"en": "What is the excess? How much would it cost to reduce it?", "ja": "免責はいくらですか? 下げるといくらかかりますか?"},
+        {"en": "Yes, we'd like the full cover, please.", "ja": "はい、フルカバーでお願いします。"},
+        {"en": "Does it cover windscreen and tyres?", "ja": "フロントガラスとタイヤも対象ですか?"},
+        {"en": "Can I take photos of the scratches before we leave?", "ja": "出発前に傷の写真を撮ってもいいですか?"},
+        {"en": "There's a scratch here. Could you write it down?", "ja": "ここに傷があります。記録してもらえますか?"},
+        {"en": "Is it petrol or diesel? Which grade?", "ja": "ガソリンですか、ディーゼルですか? 何番ですか?"},
+        {"en": "What's the number to call if we break down?", "ja": "故障したときの電話番号は?"},
+        {"en": "What time do we need to return it on the last day?", "ja": "最終日は何時までに返却ですか?"}
+      ],
+      "dialogue": [
+        {"who": "Staff", "en": "Hi there. Have you got a booking?", "ja": "こんにちは。予約はありますか?"},
+        {"who": "You", "en": "Yes, under Moriwaki. Here's my licence, my international permit, and my card.", "ja": "はい、森脇で。免許証、国際免許、カードです。"},
+        {"who": "Staff", "en": "Great. Now, the standard excess is three thousand dollars. Would you like to reduce it?", "ja": "ありがとうございます。標準の免責は3,000ドルです。下げますか?"},
+        {"who": "You", "en": "Sorry, how much is it to reduce it to zero?", "ja": "すみません、0にするにはいくらですか?"},
+        {"who": "Staff", "en": "Twenty-eight dollars a day. That covers windscreen and tyres too.", "ja": "1日28ドルです。フロントガラスとタイヤも含みます。"},
+        {"who": "You", "en": "Okay, we'll take the full cover, please.", "ja": "では、フルカバーでお願いします。"},
+        {"who": "Staff", "en": "We'll put a five-hundred-dollar hold on your card. It's released when you return the car.", "ja": "カードに500ドルの仮押さえをします。返却時に解除されます。"},
+        {"who": "You", "en": "Five hundred. Okay. Is the car petrol or diesel?", "ja": "500ですね。はい。車はガソリンですか、ディーゼルですか?"},
+        {"who": "Staff", "en": "Petrol, ninety-one. Please return it full. Here's the damage sheet — have a look around the car.", "ja": "ガソリンの91です。満タン返却で。こちらが傷の用紙です。車を一周確認してください。"},
+        {"who": "You", "en": "There's a scratch on the back bumper. Could you write it down? I'll take a photo too.", "ja": "後ろのバンパーに傷があります。記録してください。写真も撮ります。"},
+        {"who": "Staff", "en": "No problem. Keep left, and have a great trip!", "ja": "もちろん。左側通行で、良い旅を!"}
+      ],
+      "numbers": ["three thousand dollars", "twenty-eight dollars a day", "a five-hundred-dollar hold", "ninety-one unleaded", "return by ten a.m.", "0800 number"],
+      "tips": "excess = 免責額(事故のとき自己負担する上限)。hold = カードの仮押さえ。日本の任意保険の感覚で「フルカバー」を選ぶのが無難。傷の写真は全周+ホイール+フロントガラスを撮る。"
+    },
+    {
+      "id": 3,
+      "slug": "hotel-checkin",
+      "title_en": "Checking in & reporting a problem",
+      "title_ja": "宿チェックイン・設備や予約の問題を伝える",
+      "day": "Day 1〜8 — 毎日",
+      "situation": "モーテルやホテルのフロントで予約を伝える。朝食・Wi‑Fi・チェックアウト時刻を確認する。部屋のヒーターが動かない、タオルが足りない、などを伝える。NZ の宿は夜遅いと無人になり、暗証番号のキーボックスのこともある。",
+      "listen": [
+        {"en": "Have you got a booking with us?", "ja": "予約はありますか?"},
+        {"en": "Can I take your name, please?", "ja": "お名前をいただけますか?"},
+        {"en": "Could you spell that for me?", "ja": "スペルをお願いします。(M-O-R-I-W-A-K-I)"},
+        {"en": "You're in room twelve, up the stairs on the left.", "ja": "12号室です。階段を上がって左。"},
+        {"en": "Checkout is at ten. Breakfast is from seven to nine.", "ja": "チェックアウトは10時。朝食は7〜9時。"},
+        {"en": "The Wi‑Fi password is on the card in your room.", "ja": "Wi‑Fi のパスワードは部屋のカードにあります。"},
+        {"en": "I'll send someone up to have a look.", "ja": "誰か見に行かせます。"}
+      ],
+      "phrases": [
+        {"en": "Hi, we have a reservation for two nights under Moriwaki.", "ja": "こんにちは、森脇で2泊予約しています。"},
+        {"en": "M-O-R-I-W-A-K-I.", "ja": "(スペル。ゆっくり、R と L をはっきり)"},
+        {"en": "Is breakfast included? What time?", "ja": "朝食は含まれていますか? 何時ですか?"},
+        {"en": "What time is checkout?", "ja": "チェックアウトは何時ですか?"},
+        {"en": "What's the Wi‑Fi password?", "ja": "Wi‑Fi のパスワードは?"},
+        {"en": "Is there parking? Is it free?", "ja": "駐車場はありますか? 無料ですか?"},
+        {"en": "Sorry, the heater in our room isn't working.", "ja": "すみません、部屋のヒーターが動きません。"},
+        {"en": "Could we have two more towels, please?", "ja": "タオルをもう2枚もらえますか?"},
+        {"en": "The room is very cold. Is there an extra blanket?", "ja": "部屋がとても寒いです。予備の毛布はありますか?"},
+        {"en": "Is there somewhere we can get dinner nearby?", "ja": "近くで夕食を食べられる所はありますか?"}
+      ],
+      "dialogue": [
+        {"who": "Host", "en": "Hi, welcome. Have you got a booking with us?", "ja": "こんにちは、ようこそ。予約はありますか?"},
+        {"who": "You", "en": "Yes, two nights under Moriwaki. M-O-R-I-W-A-K-I.", "ja": "はい、森脇で2泊です。"},
+        {"who": "Host", "en": "Got it. You're in unit six, just across the car park. Checkout's at ten.", "ja": "確認しました。6号室で、駐車場の向かいです。チェックアウトは10時です。"},
+        {"who": "You", "en": "Unit six. Is breakfast included?", "ja": "6号室ですね。朝食は含まれていますか?"},
+        {"who": "Host", "en": "No, sorry, but there's a café two minutes down the road.", "ja": "いえ、含まれていませんが、2分先にカフェがあります。"},
+        {"who": "You", "en": "Okay. And the Wi‑Fi password?", "ja": "わかりました。Wi‑Fi のパスワードは?"},
+        {"who": "Host", "en": "It's on the card by the kettle.", "ja": "ケトルの横のカードに書いてあります。"},
+        {"who": "You", "en": "(later) Sorry to bother you. The heater in unit six isn't working.", "ja": "(あとで)すみません。6号室のヒーターが動きません。"},
+        {"who": "Host", "en": "Oh, sorry about that. Did you try the switch on the wall?", "ja": "申し訳ありません。壁のスイッチは試しましたか?"},
+        {"who": "You", "en": "Yes, I did. Nothing happens.", "ja": "はい、試しました。何も起きません。"},
+        {"who": "Host", "en": "I'll come and have a look in five minutes.", "ja": "5分後に見に行きます。"},
+        {"who": "You", "en": "Thank you very much.", "ja": "ありがとうございます。"}
+      ],
+      "numbers": ["two nights", "unit six / room twelve", "checkout at ten", "breakfast from seven to nine", "two minutes down the road", "key box code 4 7 2 1"],
+      "tips": "NZ では motel の部屋を unit と呼ぶことが多い。「名前のスペル」は毎回聞かれるので、自分と相手の名前を暗記レベルで。問題を伝えるときは 場所 + 何が + 動かない の3語で十分。"
+    },
+    {
+      "id": 4,
+      "slug": "cafe-restaurant",
+      "title_en": "Ordering at a café or restaurant",
+      "title_ja": "カフェ・レストランで注文、アレルギーや希望を伝える",
+      "day": "Day 1〜9 — 毎日",
+      "situation": "NZ のカフェはカウンターで注文して先払いが多い。レストランはテーブルで注文。「Eat in or takeaway?」「Any sauces?」「Flat white?」などの短い確認質問が連続で来るので、ここが一番リスニングの練習になる。",
+      "listen": [
+        {"en": "Hi, how are you? What can I get you?", "ja": "こんにちは。ご注文は?(How are you は挨拶、Good thanks で OK)"},
+        {"en": "Eat in or takeaway?", "ja": "店内で? 持ち帰り?"},
+        {"en": "Would you like that heated up?", "ja": "温めますか?"},
+        {"en": "Any sauces with that? Tomato or aioli?", "ja": "ソースは? ケチャップかアイオリ?"},
+        {"en": "What size? Regular or large?", "ja": "サイズは?"},
+        {"en": "Did you want milk with that? Trim, full, or oat?", "ja": "ミルクは? 低脂肪・普通・オーツ?"},
+        {"en": "That'll be twenty-four fifty. Tap your card there.", "ja": "24ドル50です。そこでカードをタッチしてください。"},
+        {"en": "Take a number and we'll bring it over.", "ja": "番号札を持ってお席へ。お持ちします。"}
+      ],
+      "phrases": [
+        {"en": "A table for two, please.", "ja": "2人です。"},
+        {"en": "Do we order at the counter?", "ja": "注文はカウンターですか?"},
+        {"en": "I'd like the fish and chips, and a flat white, please.", "ja": "フィッシュ&チップスとフラットホワイトをお願いします。"},
+        {"en": "She'll have the salmon.", "ja": "彼女はサーモンで。"},
+        {"en": "Does this have nuts in it? My partner is allergic to nuts.", "ja": "これにナッツは入っていますか? 連れがナッツアレルギーです。"},
+        {"en": "Could we get it without onion?", "ja": "玉ねぎ抜きでできますか?"},
+        {"en": "Eat in, please. / Takeaway, please.", "ja": "店内で。/ 持ち帰りで。"},
+        {"en": "What do you recommend?", "ja": "おすすめは何ですか?"},
+        {"en": "Could we get the bill, please?", "ja": "お会計をお願いします。"},
+        {"en": "Can we pay separately? / Together, please.", "ja": "別々に払えますか? / 一緒で。"},
+        {"en": "Do you have a toilet?", "ja": "トイレはありますか?"}
+      ],
+      "dialogue": [
+        {"who": "Staff", "en": "Hi, how's it going? What can I get you?", "ja": "こんにちは、調子どう? ご注文は?"},
+        {"who": "You", "en": "Good, thanks. One flat white and one long black, please.", "ja": "元気です。フラットホワイト1つとロングブラック1つお願いします。"},
+        {"who": "Staff", "en": "Sure. Eat in or takeaway?", "ja": "はい。店内で? 持ち帰り?"},
+        {"who": "You", "en": "Eat in, please. And the eggs benedict — does that have nuts? My partner is allergic.", "ja": "店内で。それとエッグベネディクト、ナッツは入っていますか? 連れがアレルギーです。"},
+        {"who": "Staff", "en": "No nuts in that one. The granola has nuts though.", "ja": "それには入っていません。グラノーラには入っています。"},
+        {"who": "You", "en": "Okay, one eggs benedict then. And the big breakfast for me.", "ja": "ではエッグベネディクト1つ。私はビッグブレックファストで。"},
+        {"who": "Staff", "en": "How would you like your eggs? Poached, fried, or scrambled?", "ja": "卵はどうしますか? ポーチド、目玉焼き、スクランブル?"},
+        {"who": "You", "en": "Sorry, could you say that again?", "ja": "すみません、もう一度お願いします。"},
+        {"who": "Staff", "en": "Your eggs — poached, fried, or scrambled?", "ja": "卵です。ポーチド、目玉焼き、スクランブル?"},
+        {"who": "You", "en": "Scrambled, please.", "ja": "スクランブルで。"},
+        {"who": "Staff", "en": "That's forty-three eighty. Tap your card there. Take a number, we'll bring it out.", "ja": "43ドル80です。そこでカードをタッチ。番号札を持ってお席へ。"},
+        {"who": "You", "en": "Thanks.", "ja": "ありがとう。"}
+      ],
+      "numbers": ["twenty-four fifty ($24.50)", "forty-three eighty ($43.80)", "table for two", "number seventeen", "fifteen minutes", "closes at three"],
+      "tips": "flat white は NZ 発祥のラテ。long black はアメリカーノ。カフェは先払い・番号札が普通。アレルギーは allergic to ~ を丸暗記。チップ文化はほぼ無い。"
+    },
+    {
+      "id": 5,
+      "slug": "petrol-station",
+      "title_en": "Filling up at a petrol station",
+      "title_ja": "ガソリン給油・支払い",
+      "day": "Day 2, 5, 7 — Tekapo / Wanaka / Te Anau",
+      "situation": "NZ はセルフ給油。先に給油してから店内でポンプ番号を言って払う店と、先払い(prepay)の店がある。Milford Road には給油所が無いので Te Anau で満タンにする。田舎は無人の24時間カード式も多い。",
+      "listen": [
+        {"en": "Which pump?", "ja": "何番ポンプ?"},
+        {"en": "Is that prepay, or are you paying after?", "ja": "先払いですか? 後払いですか?"},
+        {"en": "How much would you like? Or fill it up?", "ja": "いくら分? それとも満タン?"},
+        {"en": "Would you like a receipt?", "ja": "レシートはいりますか?"},
+        {"en": "Anything else with that?", "ja": "他に何か?"},
+        {"en": "Just tap there when you're ready.", "ja": "準備できたらそこでタッチしてください。"},
+        {"en": "That pump's card-only, sorry.", "ja": "そのポンプはカード専用です。"}
+      ],
+      "phrases": [
+        {"en": "Pump number three, please.", "ja": "3番ポンプです。"},
+        {"en": "Do I pay inside, or at the pump?", "ja": "店内で払いますか? ポンプで払いますか?"},
+        {"en": "Fill it up, please. Ninety-one.", "ja": "満タンで。91で。"},
+        {"en": "Sixty dollars on pump four, please.", "ja": "4番に60ドル分お願いします。"},
+        {"en": "Which one is ninety-one? The green one?", "ja": "91はどれですか? 緑ですか?"},
+        {"en": "The pump isn't working. Could you help me?", "ja": "ポンプが動きません。手伝ってもらえますか?"},
+        {"en": "Where is the next petrol station on the way to Milford?", "ja": "Milford へ向かう途中、次の給油所はどこですか?"},
+        {"en": "Yes, a receipt, please.", "ja": "はい、レシートをお願いします。"},
+        {"en": "Do you have a toilet I can use?", "ja": "トイレを借りられますか?"}
+      ],
+      "dialogue": [
+        {"who": "You", "en": "Hi. Do I pay inside, or at the pump?", "ja": "こんにちは。店内払いですか? ポンプで払いますか?"},
+        {"who": "Staff", "en": "You can pay after. Which pump are you on?", "ja": "後払いで大丈夫です。何番ポンプですか?"},
+        {"who": "You", "en": "Pump three. I'll fill it up.", "ja": "3番です。満タンにします。"},
+        {"who": "Staff", "en": "Sweet as. Come back in when you're done.", "ja": "了解。終わったら来てください。(Sweet as = OK の NZ 英語)"},
+        {"who": "You", "en": "(after filling) Pump three, please.", "ja": "(給油後)3番ポンプです。"},
+        {"who": "Staff", "en": "That's eighty-seven twenty. Anything else?", "ja": "87ドル20です。他には?"},
+        {"who": "You", "en": "No, that's all. Card, please.", "ja": "いえ、それだけです。カードで。"},
+        {"who": "Staff", "en": "Tap there. Receipt?", "ja": "そこでタッチ。レシートは?"},
+        {"who": "You", "en": "Yes, please. Oh — is there a petrol station between here and Milford Sound?", "ja": "はい。あと、ここと Milford Sound の間に給油所はありますか?"},
+        {"who": "Staff", "en": "No, nothing after Te Anau. You've got plenty now, though.", "ja": "ありません。Te Anau が最後です。でも今は十分ありますよ。"},
+        {"who": "You", "en": "Great, thanks.", "ja": "よかった、ありがとう。"}
+      ],
+      "numbers": ["pump three", "ninety-one / ninety-five", "sixty dollars", "eighty-seven twenty ($87.20)", "forty litres", "a hundred and twenty k's (120 km)"],
+      "tips": "NZ 英語: petrol(ガソリン)、91 / 95 は octane。店員の Sweet as / No worries / Cheers は全部「OK・ありがとう」。Milford Road は往復 240 km で給油所ゼロ。"
+    },
+    {
+      "id": 6,
+      "slug": "roads-parking",
+      "title_en": "Roads, parking, closures & one-lane bridges",
+      "title_ja": "道路・駐車・通行止め・一車線橋について尋ねる",
+      "day": "Day 3, 7-8 — Pukaki / Milford Road",
+      "situation": "DOC ビジターセンターや i-SITE(観光案内所)で道路状況を聞く。Milford Road は雪崩・落石で閉鎖されることがある。駐車場の払い方、トレイル入口までの所要時間、一車線橋の譲り方を確認する。",
+      "listen": [
+        {"en": "The road's open, but there's a chain requirement from Homer Tunnel.", "ja": "道路は開いていますが、Homer Tunnel からチェーン規制です。"},
+        {"en": "It's about two hours from here, without stops.", "ja": "ここから休憩なしで約2時間です。"},
+        {"en": "Give way to traffic already on the bridge.", "ja": "橋の上にいる車に道を譲ってください。"},
+        {"en": "Parking is pay and display. Four dollars an hour.", "ja": "駐車は先払いチケット式。1時間4ドル。"},
+        {"en": "The car park fills up by nine, so get there early.", "ja": "駐車場は9時までに満車になるので早めに。"},
+        {"en": "There's no phone signal past Te Anau Downs.", "ja": "Te Anau Downs から先は電波がありません。"}
+      ],
+      "phrases": [
+        {"en": "Is the road to Milford Sound open today?", "ja": "今日 Milford Sound への道は開いていますか?"},
+        {"en": "Do we need chains?", "ja": "チェーンは必要ですか?"},
+        {"en": "How long does it take to drive to Te Anau from here?", "ja": "ここから Te Anau まで車でどのくらいですか?"},
+        {"en": "Where can I park? Is it free?", "ja": "どこに停められますか? 無料ですか?"},
+        {"en": "How do I pay for parking?", "ja": "駐車料金はどう払いますか?"},
+        {"en": "Can we park here overnight?", "ja": "ここに一晩停められますか?"},
+        {"en": "Who gives way on a one-lane bridge?", "ja": "一車線橋ではどちらが譲りますか?"},
+        {"en": "Is the Hooker Valley Track open? How long is it return?", "ja": "Hooker Valley Track は開いていますか? 往復どのくらい?"},
+        {"en": "Where is the nearest toilet?", "ja": "一番近いトイレはどこですか?"},
+        {"en": "Is there phone signal on the way?", "ja": "途中で電波はありますか?"}
+      ],
+      "dialogue": [
+        {"who": "You", "en": "Hi. Is the road to Milford Sound open tomorrow?", "ja": "こんにちは。明日 Milford Sound への道は開いていますか?"},
+        {"who": "Ranger", "en": "At the moment, yes. Check the NZTA site in the morning — it can close with heavy rain.", "ja": "今のところは。朝に NZTA のサイトを確認して。大雨で閉まることがあります。"},
+        {"who": "You", "en": "Sorry, which site?", "ja": "すみません、どのサイトですか?"},
+        {"who": "Ranger", "en": "N-Z-T-A. I'll write it down for you. Do you need chains? Not this time of year.", "ja": "NZTA。書きますね。チェーンは? この時期は不要です。"},
+        {"who": "You", "en": "Thanks. How long does it take from Te Anau?", "ja": "ありがとう。Te Anau からどのくらいかかりますか?"},
+        {"who": "Ranger", "en": "About two hours without stops. Allow three — you'll want to stop at Mirror Lakes and the Chasm.", "ja": "休憩なしで約2時間。3時間みてください。Mirror Lakes と the Chasm で止まりたくなるので。"},
+        {"who": "You", "en": "Three hours. And there are a lot of one-lane bridges, right? Who gives way?", "ja": "3時間ですね。一車線橋が多いですよね? どちらが譲りますか?"},
+        {"who": "Ranger", "en": "Look at the sign. A big black arrow means you have the right of way. A red one means you give way.", "ja": "標識を見て。大きな黒矢印は優先。赤矢印は譲る側です。"},
+        {"who": "You", "en": "Big black arrow, go. Red arrow, wait. Got it. Is there phone signal on the way?", "ja": "黒矢印は進む、赤は待つ。了解。途中で電波はありますか?"},
+        {"who": "Ranger", "en": "Not much after Te Anau Downs. Download your maps before you go.", "ja": "Te Anau Downs 以降はほぼ無し。出発前に地図をダウンロードして。"},
+        {"who": "You", "en": "Will do. Thank you.", "ja": "そうします。ありがとうございます。"}
+      ],
+      "numbers": ["about two hours", "allow three hours", "four dollars an hour", "fills up by nine", "hundred k's an hour (100 km/h)", "one hundred and twenty kilometres"],
+      "tips": "give way = 譲る。right of way = 優先。NZ の制限速度は郊外 100 km/h、市街 50 km/h。駐車は pay and display(機械でチケットを買ってダッシュボードに置く)が多い。"
+    },
+    {
+      "id": 7,
+      "slug": "tour-booking",
+      "title_en": "Tours, bookings & weather changes",
+      "title_ja": "観光予約・天候による変更・キャンセル",
+      "day": "Day 4 Hooker Valley / Day 8 Milford Sound cruise",
+      "situation": "Milford Sound のクルーズを予約・変更する。天気が悪いときの変更やキャンセル規定、集合場所と時間、所要時間を確認する。Tekapo の星空ツアーも同じパターン。",
+      "listen": [
+        {"en": "Which departure would you like? We have ten-thirty, one o'clock, and three.", "ja": "どの便にしますか? 10時30分、13時、15時があります。"},
+        {"en": "Please check in at the terminal thirty minutes before.", "ja": "30分前にターミナルでチェックインしてください。"},
+        {"en": "If we cancel due to weather, you get a full refund.", "ja": "天候で当社がキャンセルした場合は全額返金です。"},
+        {"en": "If you cancel within twenty-four hours, there's no refund.", "ja": "24時間以内のお客様都合キャンセルは返金なしです。"},
+        {"en": "The cruise is about an hour and forty-five minutes.", "ja": "クルーズは約1時間45分です。"},
+        {"en": "Have you got your confirmation number?", "ja": "予約番号はありますか?"},
+        {"en": "Lunch is an extra fifteen dollars per person.", "ja": "昼食は1人15ドル追加です。"}
+      ],
+      "phrases": [
+        {"en": "We'd like to book the one o'clock cruise for two, please.", "ja": "13時のクルーズを2人で予約したいです。"},
+        {"en": "How long is the cruise?", "ja": "クルーズはどのくらいの長さですか?"},
+        {"en": "Where do we check in, and what time?", "ja": "どこで何時にチェックインですか?"},
+        {"en": "What happens if the weather is bad?", "ja": "天気が悪い場合はどうなりますか?"},
+        {"en": "What's the cancellation policy?", "ja": "キャンセル規定はどうなっていますか?"},
+        {"en": "Can we change to tomorrow's cruise instead?", "ja": "明日のクルーズに変更できますか?"},
+        {"en": "Is there a refund if we cancel?", "ja": "キャンセルしたら返金はありますか?"},
+        {"en": "Is lunch included?", "ja": "昼食は含まれていますか?"},
+        {"en": "We have a booking. The confirmation number is ...", "ja": "予約があります。予約番号は…です。"},
+        {"en": "Is the track open today? Is it safe in this weather?", "ja": "今日トレイルは開いていますか? この天気でも安全ですか?"}
+      ],
+      "dialogue": [
+        {"who": "You", "en": "Hi. We'd like to book a Milford Sound cruise for two, for Thursday.", "ja": "こんにちは。木曜に Milford Sound クルーズを2人で予約したいです。"},
+        {"who": "Agent", "en": "Sure. We have ten-thirty, one o'clock, and three. Which would you like?", "ja": "はい。10時30分、13時、15時があります。どれにしますか?"},
+        {"who": "You", "en": "One o'clock, please. How long is it?", "ja": "13時で。どのくらいの長さですか?"},
+        {"who": "Agent", "en": "About an hour and forty-five minutes. Check in at the terminal thirty minutes before.", "ja": "約1時間45分。30分前にターミナルでチェックインです。"},
+        {"who": "You", "en": "Twelve-thirty at the terminal. What happens if the weather is bad?", "ja": "12時30分にターミナルですね。天気が悪い場合は?"},
+        {"who": "Agent", "en": "Cruises run in the rain — actually the waterfalls are better. If we cancel, you get a full refund.", "ja": "雨でも運航します。むしろ滝がきれいです。当社がキャンセルすれば全額返金です。"},
+        {"who": "You", "en": "And if we want to change the day?", "ja": "こちらが日を変えたい場合は?"},
+        {"who": "Agent", "en": "Free changes up to twenty-four hours before. Inside twenty-four hours, no refund.", "ja": "24時間前までは無料変更。24時間以内は返金なしです。"},
+        {"who": "You", "en": "Sorry, could you write that down? Twenty-four hours?", "ja": "すみません、書いてもらえますか? 24時間?"},
+        {"who": "Agent", "en": "Sure. Here you go. Would you like to add lunch? Fifteen dollars each.", "ja": "はい、どうぞ。昼食を追加しますか? 1人15ドルです。"},
+        {"who": "You", "en": "No thanks, we'll bring our own. Card, please.", "ja": "いえ、持参します。カードで。"}
+      ],
+      "numbers": ["ten-thirty / one o'clock / three", "thirty minutes before", "an hour and forty-five minutes", "twenty-four hours", "fifteen dollars each", "confirmation number M-S-4-7-2-9"],
+      "tips": "時刻は 12 時間制で言われる。half past ten = 10:30、quarter to one = 12:45 も出る。予約番号は紙かスクショで見せるのが最速。"
+    },
+    {
+      "id": 8,
+      "slug": "emergency",
+      "title_en": "Flat tyre, breakdown, accident & feeling sick",
+      "title_ja": "パンク・故障・事故・体調不良時の助けの求め方",
+      "day": "いつでも",
+      "situation": "田舎道でパンク、エンジンがかからない、軽い接触事故、パートナーの発熱。NZ の緊急番号は 111(警察・救急・消防)。レンタカーのロードサービス番号は契約書にある。電波がないときは次の車や近くの家に助けを求める。",
+      "listen": [
+        {"en": "Emergency. Which service do you need — police, fire, or ambulance?", "ja": "緊急です。警察・消防・救急のどれですか?"},
+        {"en": "Where are you? What's your location?", "ja": "場所はどこですか?"},
+        {"en": "Is anyone hurt?", "ja": "けが人はいますか?"},
+        {"en": "What's your rego — the number plate?", "ja": "ナンバープレートは?"},
+        {"en": "Stay with the vehicle. Someone will be there in about forty minutes.", "ja": "車のそばにいてください。約40分で到着します。"},
+        {"en": "Do you have any allergies? Are you on any medication?", "ja": "アレルギーは? 服用中の薬は?"},
+        {"en": "The nearest medical centre is in Twizel, about thirty minutes away.", "ja": "一番近い診療所は Twizel で、約30分です。"}
+      ],
+      "phrases": [
+        {"en": "We have a flat tyre. Can you help us?", "ja": "パンクしました。助けてもらえますか?"},
+        {"en": "The car won't start.", "ja": "車のエンジンがかかりません。"},
+        {"en": "We've had a small accident. No one is hurt.", "ja": "軽い事故を起こしました。けが人はいません。"},
+        {"en": "We're on State Highway 8, about ten minutes south of Lake Pukaki.", "ja": "国道8号、Lake Pukaki の南約10分の所にいます。"},
+        {"en": "Our rental company is Apex. The plate number is ...", "ja": "レンタカー会社は Apex です。ナンバーは…"},
+        {"en": "My partner feels sick. She has a fever and a headache.", "ja": "連れの具合が悪いです。熱と頭痛があります。"},
+        {"en": "Is there a pharmacy or a medical centre nearby?", "ja": "近くに薬局か診療所はありますか?"},
+        {"en": "We need a doctor. Where should we go?", "ja": "医者が必要です。どこへ行けばいいですか?"},
+        {"en": "I don't understand. Could you text me the address?", "ja": "分かりません。住所をメッセージで送ってもらえますか?"},
+        {"en": "Could you call this number for me? My English is limited.", "ja": "この番号に代わりに電話してもらえますか? 英語が限られています。"}
+      ],
+      "dialogue": [
+        {"who": "Operator", "en": "Roadside assistance, this is Sam. How can I help?", "ja": "ロードサービスの Sam です。どうしましたか?"},
+        {"who": "You", "en": "Hi. We have a rental car from Apex. We have a flat tyre.", "ja": "こんにちは。Apex のレンタカーです。パンクしました。"},
+        {"who": "Operator", "en": "Okay. Is everyone safe? Are you off the road?", "ja": "わかりました。全員無事ですか? 路肩に寄せていますか?"},
+        {"who": "You", "en": "Yes, we're safe. We're off the road.", "ja": "はい、無事です。路肩にいます。"},
+        {"who": "Operator", "en": "Good. What's your location?", "ja": "よかった。場所は?"},
+        {"who": "You", "en": "State Highway 8, about ten minutes south of Lake Pukaki. Near a sign that says Twizel 20.", "ja": "国道8号、Lake Pukaki の南10分くらい。「Twizel 20」の標識の近くです。"},
+        {"who": "Operator", "en": "And the rego — the number plate?", "ja": "ナンバープレートは?"},
+        {"who": "You", "en": "Sorry, the what?", "ja": "すみません、何ですか?"},
+        {"who": "Operator", "en": "The number plate on the car.", "ja": "車のナンバープレートです。"},
+        {"who": "You", "en": "Ah. M-K-T, four, five, two.", "ja": "ああ。MKT 452 です。"},
+        {"who": "Operator", "en": "Thanks. Stay with the vehicle. Someone will be there in about forty minutes. Is this number okay to text?", "ja": "ありがとう。車のそばにいてください。約40分で向かいます。この番号にメッセージを送ってもいいですか?"},
+        {"who": "You", "en": "Yes, please text me. Thank you.", "ja": "はい、メッセージをお願いします。ありがとう。"}
+      ],
+      "numbers": ["one one one (111)", "State Highway 8", "about forty minutes", "ten minutes south", "plate M-K-T four five two", "a temperature of thirty-eight point five"],
+      "tips": "rego = registration(ナンバー)。NZ の 111 は日本語通訳(interpreter)を頼める。「場所」は 道路番号 + 直近の町 + 標識 の3つで伝える。パートナーの薬・アレルギーは英語で書いたメモを財布に入れておく。"
+    }
+  ]
+}
