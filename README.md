@@ -3,6 +3,37 @@
 ニュージーランド南島 8泊9日(2027年2〜3月)までに、旅行の会話を自分で回せるようになるためのリポジトリ。
 学習パスは [PLAN.md](PLAN.md)(Claude と Codex で2往復して合意した版)。
 
+## はじめに(迷ったらここ)
+
+**毎日見るのは1か所: アプリの「今日」タブ** → https://moriwakihikari.github.io/nz-english/
+
+| いつ | 見る場所 |
+|------|---------|
+| 毎日 | アプリ「今日」タブ(復習日が来た場面が1つ出る) |
+| 紙で持ち歩く・講師に見せる | [`pdf/nz-english-scenes.pdf`](pdf/nz-english-scenes.pdf) |
+| やり方を忘れた | 下の「毎日のやり方」 / [PLAN.md 3章](PLAN.md) |
+| 今何週目か・全体の流れ | [PLAN.md 4章](PLAN.md) |
+| 週末 | アプリ「記録」タブ → 下の週次テーブルに1行追加 |
+
+### 初日(2026-10-03)にやること
+
+1. abceed で無料 TOEIC 模試を1回。Listening / Reading の点をここにメモ: `L: ___ / R: ___`
+2. YouTube "in-flight meal service" を字幕なし→字幕ありで1回ずつ。文字なら分かるなら「音の問題」
+3. TOEIC 12月回に申込
+4. Native Camp 7日間無料体験に登録
+5. アプリで Scene 1 を開き、「聞こえてくる言葉」を 0.7 で全部聞く → フレーズ音読 → 結果を記録
+
+### 2日目以降
+
+アプリ「今日」タブ → 下の「毎日のやり方」6ステップ。同じ場面を 3〜5 日繰り返してから次へ。
+
+### Native Camp で講師に最初に言うこと
+
+> I'm practising travel English for New Zealand. Can we role-play this scene? Please speak slowly, and correct me on three points at most.
+> (ニュージーランド旅行の英語を練習しています。この場面をロールプレイできますか? ゆっくり話して、訂正は3つまでにしてください。)
+
+PDF の該当ページを画面共有するか、場面の英語タイトルをチャットに貼る。
+
 ## 中身
 
 | パス | 何か |
